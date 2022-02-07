@@ -7,9 +7,9 @@ const PostCard = ({data}) => {
 
   return (
     <Card>
-      <CardHeader title={title}/>
+      <CardHeader title={title} sx={{color: '#21A9D3'}}/>
       <CardContent>
-        <Typography>
+        <Typography sx={{color: '#6B6B6B'}}> 
           {body}
         </Typography>
       </CardContent>

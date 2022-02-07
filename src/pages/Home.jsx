@@ -24,13 +24,13 @@ export const Home = () => {
     }
     
     return <Box sx={{
-            width: 600,
+            width: 800,
             minWidth: 320,
             maxWidth: '100vw',
-            margin: 'auto',
+            margin: '40px auto',
             display: 'flex',
             flexDirection: 'column',
-            gap: 2,
+            gap: 3,
             padding: 2
         }}>
         {posts.map(data => <PostCard data={data}/>)}

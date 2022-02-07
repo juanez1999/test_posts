@@ -30,7 +30,7 @@ export const CreatePost = () => {
 
     return (
         <Box sx={{
-        width: 600,
+        width: 800,
         minWidth: 320,
         maxWidth: '100vw',
         margin: 'auto',
